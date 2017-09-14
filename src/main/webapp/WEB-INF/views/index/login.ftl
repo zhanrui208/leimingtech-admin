@@ -23,7 +23,7 @@
         $(function(){
             changeCaptcha();
             switchBg();
-            setInterval("switchBg()",5000);
+            //setInterval("switchBg()",5000);
             //跳出框架在主窗口登录
             if(top.location!=this.location)	top.location=this.location;
             $('#username').focus();
